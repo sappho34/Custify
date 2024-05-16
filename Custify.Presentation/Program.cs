@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Custify.Domain.Models;
+using Custify.Domain;
 using Custify.Domain.Services;
+using System.Security.AccessControl;
 
 CustomerService customerService = new();
 customerService.Add("Aslı");

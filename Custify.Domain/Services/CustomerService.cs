@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 
 namespace Custify.Domain.Services
 {
-    public class CustomerService:Customer
+    public class CustomerService
     {
         static List<Customer> _customers = new();
 
-        public void Add(string name) 
+        public void Add(string name)
         {
             Random random = new Random();
-            var newCustomer = new Customer();
+            var newCustomer = new Customer()
             {
-                CustomerId = random.Next(1_000,10_000);
-                CustomerName = name;
-            }
+                CustomerId = random.Next(1_000, 10_000),
+                CustomerName = name
+             };
             _customers.Add(newCustomer); 
         }
         public List<Customer> GetAll()
