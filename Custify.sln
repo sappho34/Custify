@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custify.Domain", "Custify.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custify.Presentation", "Custify.Presentation\Custify.Presentation.csproj", "{1763785A-2563-4479-807D-CB7DFF71B365}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TicketApp", "TicketApp", "{094CC6FA-2B8E-4113-B82D-FF68F29A325F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketApp.Domain", "TicketApp.Domain\TicketApp.Domain.csproj", "{CF934A53-485C-42A0-BD67-83511AD417CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketPresentation", "TicketPresentation\TicketPresentation.csproj", "{AC322DC9-61AC-4655-B606-61A890CFACD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,21 @@ Global
 		{1763785A-2563-4479-807D-CB7DFF71B365}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1763785A-2563-4479-807D-CB7DFF71B365}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1763785A-2563-4479-807D-CB7DFF71B365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF934A53-485C-42A0-BD67-83511AD417CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF934A53-485C-42A0-BD67-83511AD417CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF934A53-485C-42A0-BD67-83511AD417CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF934A53-485C-42A0-BD67-83511AD417CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC322DC9-61AC-4655-B606-61A890CFACD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC322DC9-61AC-4655-B606-61A890CFACD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC322DC9-61AC-4655-B606-61A890CFACD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC322DC9-61AC-4655-B606-61A890CFACD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF934A53-485C-42A0-BD67-83511AD417CC} = {094CC6FA-2B8E-4113-B82D-FF68F29A325F}
+		{AC322DC9-61AC-4655-B606-61A890CFACD5} = {094CC6FA-2B8E-4113-B82D-FF68F29A325F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7429E4A5-D1A1-4AD0-ABF2-9859E1F79EDB}
