@@ -11,13 +11,14 @@ namespace Custify.Domain.Services
     {
         static List<Customer> _customers = new();
 
-        public void Add(string name)
+        public void Add(string name,string phoneNumber)
         {
             Random random = new Random();
             var newCustomer = new Customer()
             {
                 CustomerId = random.Next(1_000, 10_000),
-                CustomerName = name
+                CustomerName = name,
+                PhoneNumber = phoneNumber
              };
             _customers.Add(newCustomer); 
         }

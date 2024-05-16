@@ -4,10 +4,10 @@ using Custify.Domain.Services;
 using System.Security.AccessControl;
 
 CustomerService customerService = new();
-customerService.Add("Aslı");
-customerService.Add("Merve");
-customerService.Add("Ela");
-customerService.Add("Berna");
+customerService.Add("Aslı","0535459664");
+customerService.Add("Merve","0535556647");
+customerService.Add("Ela", "05355534567");
+customerService.Add("Berna", "0535111647");
 
 
 var customers = customerService.GetAll();
